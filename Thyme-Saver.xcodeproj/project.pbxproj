@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48551201D3BBC00E8743F /* AppDelegate.swift */; };
+		08C48554201D3BBC00E8743F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48553201D3BBC00E8743F /* ViewController.swift */; };
+		08C48557201D3BBC00E8743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C48555201D3BBC00E8743F /* Main.storyboard */; };
+		08C48559201D3BBC00E8743F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C48558201D3BBC00E8743F /* Assets.xcassets */; };
+		08C4855C201D3BBC00E8743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */; };
+		08C48567201D3BBC00E8743F /* Thyme_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48566201D3BBC00E8743F /* Thyme_SaverTests.swift */; };
+		08C48572201D3BBC00E8743F /* Thyme_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08C48563201D3BBC00E8743F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C48546201D3BBC00E8743F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C4854D201D3BBC00E8743F;
+			remoteInfo = "Thyme-Saver";
+		};
+		08C4856E201D3BBC00E8743F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C48546201D3BBC00E8743F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C4854D201D3BBC00E8743F;
+			remoteInfo = "Thyme-Saver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C4854E201D3BBC00E8743F /* Thyme-Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thyme-Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C48551201D3BBC00E8743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08C48553201D3BBC00E8743F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08C48556201D3BBC00E8743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08C48558201D3BBC00E8743F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C4855B201D3BBC00E8743F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08C4855D201D3BBC00E8743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C48562201D3BBC00E8743F /* Thyme-SaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thyme-SaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C48566201D3BBC00E8743F /* Thyme_SaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thyme_SaverTests.swift; sourceTree = "<group>"; };
+		08C48568201D3BBC00E8743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C4856D201D3BBC00E8743F /* Thyme-SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thyme-SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thyme_SaverUITests.swift; sourceTree = "<group>"; };
+		08C48573201D3BBC00E8743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C4854B201D3BBC00E8743F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4855F201D3BBC00E8743F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4856A201D3BBC00E8743F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C48545201D3BBC00E8743F = {
+			isa = PBXGroup;
+			children = (
+				08C48550201D3BBC00E8743F /* Thyme-Saver */,
+				08C48565201D3BBC00E8743F /* Thyme-SaverTests */,
+				08C48570201D3BBC00E8743F /* Thyme-SaverUITests */,
+				08C4854F201D3BBC00E8743F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08C4854F201D3BBC00E8743F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C4854E201D3BBC00E8743F /* Thyme-Saver.app */,
+				08C48562201D3BBC00E8743F /* Thyme-SaverTests.xctest */,
+				08C4856D201D3BBC00E8743F /* Thyme-SaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08C48550201D3BBC00E8743F /* Thyme-Saver */ = {
+			isa = PBXGroup;
+			children = (
+				08C48551201D3BBC00E8743F /* AppDelegate.swift */,
+				08C48553201D3BBC00E8743F /* ViewController.swift */,
+				08C48555201D3BBC00E8743F /* Main.storyboard */,
+				08C48558201D3BBC00E8743F /* Assets.xcassets */,
+				08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */,
+				08C4855D201D3BBC00E8743F /* Info.plist */,
+			);
+			path = "Thyme-Saver";
+			sourceTree = "<group>";
+		};
+		08C48565201D3BBC00E8743F /* Thyme-SaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				08C48566201D3BBC00E8743F /* Thyme_SaverTests.swift */,
+				08C48568201D3BBC00E8743F /* Info.plist */,
+			);
+			path = "Thyme-SaverTests";
+			sourceTree = "<group>";
+		};
+		08C48570201D3BBC00E8743F /* Thyme-SaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */,
+				08C48573201D3BBC00E8743F /* Info.plist */,
+			);
+			path = "Thyme-SaverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08C4854D201D3BBC00E8743F /* Thyme-Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C48576201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-Saver" */;
+			buildPhases = (
+				08C4854A201D3BBC00E8743F /* Sources */,
+				08C4854B201D3BBC00E8743F /* Frameworks */,
+				08C4854C201D3BBC00E8743F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thyme-Saver";
+			productName = "Thyme-Saver";
+			productReference = 08C4854E201D3BBC00E8743F /* Thyme-Saver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08C48561201D3BBC00E8743F /* Thyme-SaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C48579201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverTests" */;
+			buildPhases = (
+				08C4855E201D3BBC00E8743F /* Sources */,
+				08C4855F201D3BBC00E8743F /* Frameworks */,
+				08C48560201D3BBC00E8743F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C48564201D3BBC00E8743F /* PBXTargetDependency */,
+			);
+			name = "Thyme-SaverTests";
+			productName = "Thyme-SaverTests";
+			productReference = 08C48562201D3BBC00E8743F /* Thyme-SaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08C4856C201D3BBC00E8743F /* Thyme-SaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C4857C201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverUITests" */;
+			buildPhases = (
+				08C48569201D3BBC00E8743F /* Sources */,
+				08C4856A201D3BBC00E8743F /* Frameworks */,
+				08C4856B201D3BBC00E8743F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C4856F201D3BBC00E8743F /* PBXTargetDependency */,
+			);
+			name = "Thyme-SaverUITests";
+			productName = "Thyme-SaverUITests";
+			productReference = 08C4856D201D3BBC00E8743F /* Thyme-SaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08C48546201D3BBC00E8743F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Theo Manavazian";
+				TargetAttributes = {
+					08C4854D201D3BBC00E8743F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					08C48561201D3BBC00E8743F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08C4854D201D3BBC00E8743F;
+					};
+					08C4856C201D3BBC00E8743F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08C4854D201D3BBC00E8743F;
+					};
+				};
+			};
+			buildConfigurationList = 08C48549201D3BBC00E8743F /* Build configuration list for PBXProject "Thyme-Saver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08C48545201D3BBC00E8743F;
+			productRefGroup = 08C4854F201D3BBC00E8743F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08C4854D201D3BBC00E8743F /* Thyme-Saver */,
+				08C48561201D3BBC00E8743F /* Thyme-SaverTests */,
+				08C4856C201D3BBC00E8743F /* Thyme-SaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C4854C201D3BBC00E8743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C4855C201D3BBC00E8743F /* LaunchScreen.storyboard in Resources */,
+				08C48559201D3BBC00E8743F /* Assets.xcassets in Resources */,
+				08C48557201D3BBC00E8743F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C48560201D3BBC00E8743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4856B201D3BBC00E8743F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C4854A201D3BBC00E8743F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C48554201D3BBC00E8743F /* ViewController.swift in Sources */,
+				08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C4855E201D3BBC00E8743F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C48567201D3BBC00E8743F /* Thyme_SaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C48569201D3BBC00E8743F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C48572201D3BBC00E8743F /* Thyme_SaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08C48564201D3BBC00E8743F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C4854D201D3BBC00E8743F /* Thyme-Saver */;
+			targetProxy = 08C48563201D3BBC00E8743F /* PBXContainerItemProxy */;
+		};
+		08C4856F201D3BBC00E8743F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C4854D201D3BBC00E8743F /* Thyme-Saver */;
+			targetProxy = 08C4856E201D3BBC00E8743F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08C48555201D3BBC00E8743F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C48556201D3BBC00E8743F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C4855B201D3BBC00E8743F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08C48574201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08C48575201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08C48577201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08C48578201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08C4857A201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thyme-Saver.app/Thyme-Saver";
+			};
+			name = Debug;
+		};
+		08C4857B201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thyme-Saver.app/Thyme-Saver";
+			};
+			name = Release;
+		};
+		08C4857D201D3BBC00E8743F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thyme-Saver";
+			};
+			name = Debug;
+		};
+		08C4857E201D3BBC00E8743F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQ53J5AZB;
+				INFOPLIST_FILE = "Thyme-SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thyme-Saver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C48549201D3BBC00E8743F /* Build configuration list for PBXProject "Thyme-Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C48574201D3BBC00E8743F /* Debug */,
+				08C48575201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C48576201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C48577201D3BBC00E8743F /* Debug */,
+				08C48578201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C48579201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C4857A201D3BBC00E8743F /* Debug */,
+				08C4857B201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C4857C201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C4857D201D3BBC00E8743F /* Debug */,
+				08C4857E201D3BBC00E8743F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08C48546201D3BBC00E8743F /* Project object */;
+}
