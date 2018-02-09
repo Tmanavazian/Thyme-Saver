@@ -1,0 +1,6 @@
+framework module Pods_Thyme_SaverUITests {
+  umbrella header "Pods-Thyme-SaverUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0854B38B202BC77C006A90E9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854B38A202BC77C006A90E9 /* SignUpVC.swift */; };
+		0854B38D202BC9C9006A90E9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854B38C202BC9C9006A90E9 /* SignInVC.swift */; };
 		08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48551201D3BBC00E8743F /* AppDelegate.swift */; };
 		08C48554201D3BBC00E8743F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48553201D3BBC00E8743F /* ViewController.swift */; };
 		08C48557201D3BBC00E8743F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C48555201D3BBC00E8743F /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		08C4855C201D3BBC00E8743F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */; };
 		08C48567201D3BBC00E8743F /* Thyme_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48566201D3BBC00E8743F /* Thyme_SaverTests.swift */; };
 		08C48572201D3BBC00E8743F /* Thyme_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */; };
+		08C48580201D3D0000E8743F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08C4857F201D3D0000E8743F /* GoogleService-Info.plist */; };
+		3226B59DAAB616F944009916 /* Pods_Thyme_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C2CD54F52D227F93691926 /* Pods_Thyme_Saver.framework */; };
+		C1FBE3EEBF3AC7A92A0801A3 /* Pods_Thyme_SaverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA5075265E956FEE427713E /* Pods_Thyme_SaverTests.framework */; };
+		F7E1143061C363DCE243FF5C /* Pods_Thyme_SaverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99558146944AD81A771F7B2E /* Pods_Thyme_SaverUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0854B38A202BC77C006A90E9 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0854B38C202BC9C9006A90E9 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		08C4854E201D3BBC00E8743F /* Thyme-Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thyme-Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C48551201D3BBC00E8743F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C48553201D3BBC00E8743F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		08C4856D201D3BBC00E8743F /* Thyme-SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thyme-SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C48571201D3BBC00E8743F /* Thyme_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thyme_SaverUITests.swift; sourceTree = "<group>"; };
 		08C48573201D3BBC00E8743F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C4857F201D3D0000E8743F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BA5075265E956FEE427713E /* Pods_Thyme_SaverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thyme_SaverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFF5E0AD3DACA191D968236 /* Pods-Thyme-SaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81965C29AA3DC9CB7A990815 /* Pods-Thyme-SaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99558146944AD81A771F7B2E /* Pods_Thyme_SaverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thyme_SaverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D49A2E6C47544FF7B42B44 /* Pods-Thyme-Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-Saver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver.release.xcconfig"; sourceTree = "<group>"; };
+		C6A0DD980C9B1BC11EEDCB3C /* Pods-Thyme-SaverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E58345A97482820C7DA19D05 /* Pods-Thyme-SaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-SaverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED9A25368034EC75A2627DE9 /* Pods-Thyme-Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme-Saver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C2CD54F52D227F93691926 /* Pods_Thyme_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thyme_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3226B59DAAB616F944009916 /* Pods_Thyme_Saver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FBE3EEBF3AC7A92A0801A3 /* Pods_Thyme_SaverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E1143061C363DCE243FF5C /* Pods_Thyme_SaverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				08C48565201D3BBC00E8743F /* Thyme-SaverTests */,
 				08C48570201D3BBC00E8743F /* Thyme-SaverUITests */,
 				08C4854F201D3BBC00E8743F /* Products */,
+				52715FB9459190C52434A1CC /* Pods */,
+				D0057D61FCBE23AFE74BD9BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +122,12 @@
 			children = (
 				08C48551201D3BBC00E8743F /* AppDelegate.swift */,
 				08C48553201D3BBC00E8743F /* ViewController.swift */,
+				0854B38A202BC77C006A90E9 /* SignUpVC.swift */,
+				0854B38C202BC9C9006A90E9 /* SignInVC.swift */,
 				08C48555201D3BBC00E8743F /* Main.storyboard */,
 				08C48558201D3BBC00E8743F /* Assets.xcassets */,
 				08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */,
+				08C4857F201D3D0000E8743F /* GoogleService-Info.plist */,
 				08C4855D201D3BBC00E8743F /* Info.plist */,
 			);
 			path = "Thyme-Saver";
@@ -125,6 +151,29 @@
 			path = "Thyme-SaverUITests";
 			sourceTree = "<group>";
 		};
+		52715FB9459190C52434A1CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A25368034EC75A2627DE9 /* Pods-Thyme-Saver.debug.xcconfig */,
+				A5D49A2E6C47544FF7B42B44 /* Pods-Thyme-Saver.release.xcconfig */,
+				2EFF5E0AD3DACA191D968236 /* Pods-Thyme-SaverTests.debug.xcconfig */,
+				E58345A97482820C7DA19D05 /* Pods-Thyme-SaverTests.release.xcconfig */,
+				C6A0DD980C9B1BC11EEDCB3C /* Pods-Thyme-SaverUITests.debug.xcconfig */,
+				81965C29AA3DC9CB7A990815 /* Pods-Thyme-SaverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0057D61FCBE23AFE74BD9BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2CD54F52D227F93691926 /* Pods_Thyme_Saver.framework */,
+				0BA5075265E956FEE427713E /* Pods_Thyme_SaverTests.framework */,
+				99558146944AD81A771F7B2E /* Pods_Thyme_SaverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08C48576201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-Saver" */;
 			buildPhases = (
+				2445A4C81775B95E031DAE58 /* [CP] Check Pods Manifest.lock */,
 				08C4854A201D3BBC00E8743F /* Sources */,
 				08C4854B201D3BBC00E8743F /* Frameworks */,
 				08C4854C201D3BBC00E8743F /* Resources */,
+				8AE75F67BFCF9E07F05CF382 /* [CP] Embed Pods Frameworks */,
+				6E3D6D3E751FFD6826839D68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08C48579201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverTests" */;
 			buildPhases = (
+				096EB86156A3422C4422752E /* [CP] Check Pods Manifest.lock */,
 				08C4855E201D3BBC00E8743F /* Sources */,
 				08C4855F201D3BBC00E8743F /* Frameworks */,
 				08C48560201D3BBC00E8743F /* Resources */,
+				B85E4EEF5885105E49FB16A0 /* [CP] Embed Pods Frameworks */,
+				27BE29335CA13873637F0E67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08C4857C201D3BBC00E8743F /* Build configuration list for PBXNativeTarget "Thyme-SaverUITests" */;
 			buildPhases = (
+				172F9D96D89234D7212A15AC /* [CP] Check Pods Manifest.lock */,
 				08C48569201D3BBC00E8743F /* Sources */,
 				08C4856A201D3BBC00E8743F /* Frameworks */,
 				08C4856B201D3BBC00E8743F /* Resources */,
+				2B7CD0E76A22DE107CC77910 /* [CP] Embed Pods Frameworks */,
+				EC01AFCC9A199DE95F83C4BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C4855C201D3BBC00E8743F /* LaunchScreen.storyboard in Resources */,
+				08C48580201D3D0000E8743F /* GoogleService-Info.plist in Resources */,
 				08C48559201D3BBC00E8743F /* Assets.xcassets in Resources */,
 				08C48557201D3BBC00E8743F /* Main.storyboard in Resources */,
 			);
@@ -254,6 +313,257 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		096EB86156A3422C4422752E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thyme-SaverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		172F9D96D89234D7212A15AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thyme-SaverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2445A4C81775B95E031DAE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thyme-Saver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27BE29335CA13873637F0E67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7CD0E76A22DE107CC77910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3D6D3E751FFD6826839D68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE75F67BFCF9E07F05CF382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-Saver/Pods-Thyme-Saver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B85E4EEF5885105E49FB16A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverTests/Pods-Thyme-SaverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC01AFCC9A199DE95F83C4BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thyme-SaverUITests/Pods-Thyme-SaverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08C4854A201D3BBC00E8743F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +571,8 @@
 			files = (
 				08C48554201D3BBC00E8743F /* ViewController.swift in Sources */,
 				08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */,
+				0854B38D202BC9C9006A90E9 /* SignInVC.swift in Sources */,
+				0854B38B202BC77C006A90E9 /* SignUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +736,15 @@
 		};
 		08C48577201D3BBC00E8743F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9A25368034EC75A2627DE9 /* Pods-Thyme-Saver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KQ53J5AZB;
 				INFOPLIST_FILE = "Thyme-Saver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,13 +753,15 @@
 		};
 		08C48578201D3BBC00E8743F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D49A2E6C47544FF7B42B44 /* Pods-Thyme-Saver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KQ53J5AZB;
 				INFOPLIST_FILE = "Thyme-Saver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver";
+				PRODUCT_BUNDLE_IDENTIFIER = "Theo.Thyme-Saver-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +770,7 @@
 		};
 		08C4857A201D3BBC00E8743F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFF5E0AD3DACA191D968236 /* Pods-Thyme-SaverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +788,7 @@
 		};
 		08C4857B201D3BBC00E8743F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58345A97482820C7DA19D05 /* Pods-Thyme-SaverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +806,7 @@
 		};
 		08C4857D201D3BBC00E8743F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A0DD980C9B1BC11EEDCB3C /* Pods-Thyme-SaverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +823,7 @@
 		};
 		08C4857E201D3BBC00E8743F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81965C29AA3DC9CB7A990815 /* Pods-Thyme-SaverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
