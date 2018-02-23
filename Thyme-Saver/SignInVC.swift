@@ -11,6 +11,7 @@ import FirebaseAuth
 import Firebase
 
 class SignInVC: UIViewController {
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var displayLabel: UILabel!
@@ -37,10 +38,6 @@ class SignInVC: UIViewController {
             
         }
     }
-    
-    
-    
-
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         emailTextField.resignFirstResponder()
         passwordTextField.resignFirstResponder()

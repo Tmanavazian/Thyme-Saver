@@ -31,13 +31,15 @@ class SignUpVC: UIViewController {
         
         if(passwordField.text! == confirmPasswordField.text!){
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error ) in
-                if error == nil && user != nil{
+                if let u = user{
                     self.performSegue(withIdentifier: "goToWelcome", sender: self)
                 } else{
                     print("error signing in \(error! .localizedDescription) ")
                     self.displayLabel.text = "\(error! .localizedDescription)"
                 }
             }
+        }else{
+            self.displayLabel.text = "Passwords do not match!"
         }
     }
     
