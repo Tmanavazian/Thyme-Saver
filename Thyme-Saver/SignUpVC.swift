@@ -16,8 +16,11 @@ class SignUpVC: UIViewController {
     @IBOutlet weak var confirmPasswordField: UITextField!
     @IBOutlet weak var displayLabel: UILabel!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
 
         // Do any additional setup after loading the view.
     }
@@ -29,10 +32,13 @@ class SignUpVC: UIViewController {
     
     @IBAction func signUp(_ sender: UIButton) {
         
+        let goToProfile = self.storyboard?.instantiateViewController(withIdentifier: "goToProfileSetup")
+
         if(passwordField.text! == confirmPasswordField.text!){
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error ) in
                 if let u = user{
-                    self.performSegue(withIdentifier: "goToWelcome", sender: self)
+                    self.present(goToProfile!,animated: false, completion: nil)
+                    
                 } else{
                     print("error signing in \(error! .localizedDescription) ")
                     self.displayLabel.text = "\(error! .localizedDescription)"

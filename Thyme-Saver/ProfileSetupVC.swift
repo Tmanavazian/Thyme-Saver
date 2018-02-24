@@ -36,6 +36,9 @@ class ProfileSetupVC: UIViewController {
     }
     @IBAction func nextButton(_ sender: UIButton) {
         
+        let goToProfilePage = self.storyboard?.instantiateViewController(withIdentifier: "goToProfilePage")
+
+        
         if(firstName.text != ""){
             if(lastName.text != ""){
                 if(phoneNumber.text != ""){
@@ -51,7 +54,9 @@ class ProfileSetupVC: UIViewController {
                                     self.ref.child(phoneNumber.text!).childByAutoId().setValue(["zipcode": zipCode.text ])
                                     self.ref.child(phoneNumber.text!).childByAutoId().setValue(["state": stateField.text ])
                                     self.ref.child(phoneNumber.text!).childByAutoId().setValue(["city": cityField.text ])
-                                    errorMessage.text = "Firbase Updated"
+                                    
+                                    self.present(goToProfilePage!,animated: false, completion: nil)
+
                                     
                                 } else {
                                     errorMessage.text = "Enter Zip"
