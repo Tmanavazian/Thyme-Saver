@@ -20,13 +20,18 @@ class ProfileSetupVC: UIViewController {
     @IBOutlet weak var stateField: UITextField!
     @IBOutlet weak var cityField: UITextField!
     @IBOutlet weak var errorMessage: UILabel!
+    @IBOutlet weak var segueLabel: UILabel!
     
     var ref: DatabaseReference!
+    
+    var myString = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference()
 
+        segueLabel.text = myString
+        
         // Do any additional setup after loading the view.
     }
 
@@ -34,6 +39,10 @@ class ProfileSetupVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
+    
+    
     @IBAction func nextButton(_ sender: UIButton) {
         
         let goToProfilePage = self.storyboard?.instantiateViewController(withIdentifier: "goToProfilePage")

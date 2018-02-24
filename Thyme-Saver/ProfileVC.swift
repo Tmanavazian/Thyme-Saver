@@ -11,7 +11,8 @@ import Firebase
 import FirebaseDatabase
 
 class ProfileVC: UIViewController {
-
+    @IBOutlet weak var nameLabel: UILabel!
+    
     var ref: DatabaseReference!
 
     override func viewDidLoad() {
