@@ -20,7 +20,8 @@ class ProfileSetupVC: UIViewController {
     @IBOutlet weak var stateField: UITextField!
     @IBOutlet weak var cityField: UITextField!
     @IBOutlet weak var errorMessage: UILabel!
-    @IBOutlet weak var segueLabel: UILabel!
+    @IBOutlet weak var segueLabelVC2: UILabel!
+    
     
     var ref: DatabaseReference!
     
@@ -30,7 +31,7 @@ class ProfileSetupVC: UIViewController {
         super.viewDidLoad()
         ref = Database.database().reference()
 
-        segueLabel.text = myString
+        segueLabelVC2.text = myString
         
         // Do any additional setup after loading the view.
     }
@@ -39,13 +40,17 @@ class ProfileSetupVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let homeViewController = segue.destination as! HomeVC
+        homeViewController.myString = segueLabelVC2.text!
+    }
     
 
     
     
     @IBAction func nextButton(_ sender: UIButton) {
         
-        let goToProfilePage = self.storyboard?.instantiateViewController(withIdentifier: "goToProfilePage")
+        let goToHomePage = self.storyboard?.instantiateViewController(withIdentifier: "HomePage")
 
         
         if(firstName.text != ""){
@@ -56,15 +61,15 @@ class ProfileSetupVC: UIViewController {
                             if(stateField.text != ""){
                                 if(zipCode.text != ""){
                                     
-                                    self.ref.child(phoneNumber.text!).childByAutoId().setValue(["phonenumber": phoneNumber.text ])
-                                    self.ref.child(phoneNumber.text!).childByAutoId().setValue(["firstname": firstName.text ])
-                                    self.ref.child(phoneNumber.text!).childByAutoId().setValue(["lastname": lastName.text ])
-                                    self.ref.child(phoneNumber.text!).childByAutoId().setValue(["streetaddress": streetAddress.text ])
-                                    self.ref.child(phoneNumber.text!).childByAutoId().setValue(["zipcode": zipCode.text ])
-                                    self.ref.child(phoneNumber.text!).childByAutoId().setValue(["state": stateField.text ])
-                                    self.ref.child(phoneNumber.text!).childByAutoId().setValue(["city": cityField.text ])
+                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["phonenumber": phoneNumber.text ])
+                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["firstname": firstName.text ])
+                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["lastname": lastName.text ])
+                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["streetaddress": streetAddress.text ])
+                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["zipcode": zipCode.text ])
+                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["state": stateField.text ])
+                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["city": cityField.text ])
                                     
-                                    self.present(goToProfilePage!,animated: false, completion: nil)
+                                    self.present(goToHomePage!,animated: false, completion: nil)
 
                                     
                                 } else {

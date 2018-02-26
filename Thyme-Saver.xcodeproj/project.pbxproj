@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		080CCE04203F6FFA00EB8785 /* ProfileSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080CCE03203F6FFA00EB8785 /* ProfileSetupVC.swift */; };
-		083532942034A15700C56D0B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083532932034A15700C56D0B /* ProfileVC.swift */; };
+		08287C4F204349F900FF5FD6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08287C4E204349F900FF5FD6 /* HomeVC.swift */; };
 		0854B38B202BC77C006A90E9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854B38A202BC77C006A90E9 /* SignUpVC.swift */; };
 		0854B38D202BC9C9006A90E9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854B38C202BC9C9006A90E9 /* SignInVC.swift */; };
 		08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C48551201D3BBC00E8743F /* AppDelegate.swift */; };
@@ -43,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		080CCE03203F6FFA00EB8785 /* ProfileSetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupVC.swift; sourceTree = "<group>"; };
-		083532932034A15700C56D0B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		08287C4E204349F900FF5FD6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		0854B38A202BC77C006A90E9 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		0854B38C202BC9C9006A90E9 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		08C4854E201D3BBC00E8743F /* Thyme-Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thyme-Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,10 +126,10 @@
 			children = (
 				08C48551201D3BBC00E8743F /* AppDelegate.swift */,
 				08C48553201D3BBC00E8743F /* ViewController.swift */,
+				0854B38C202BC9C9006A90E9 /* SignInVC.swift */,
 				0854B38A202BC77C006A90E9 /* SignUpVC.swift */,
 				080CCE03203F6FFA00EB8785 /* ProfileSetupVC.swift */,
-				083532932034A15700C56D0B /* ProfileVC.swift */,
-				0854B38C202BC9C9006A90E9 /* SignInVC.swift */,
+				08287C4E204349F900FF5FD6 /* HomeVC.swift */,
 				08C48555201D3BBC00E8743F /* Main.storyboard */,
 				08C48558201D3BBC00E8743F /* Assets.xcassets */,
 				08C4855A201D3BBC00E8743F /* LaunchScreen.storyboard */,
@@ -575,10 +575,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				083532942034A15700C56D0B /* ProfileVC.swift in Sources */,
 				08C48554201D3BBC00E8743F /* ViewController.swift in Sources */,
 				080CCE04203F6FFA00EB8785 /* ProfileSetupVC.swift in Sources */,
 				08C48552201D3BBC00E8743F /* AppDelegate.swift in Sources */,
+				08287C4F204349F900FF5FD6 /* HomeVC.swift in Sources */,
 				0854B38D202BC9C9006A90E9 /* SignInVC.swift in Sources */,
 				0854B38B202BC77C006A90E9 /* SignUpVC.swift in Sources */,
 			);

@@ -36,7 +36,7 @@ class SignUpVC: UIViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var profileSetupViewController = segue.destination as! ProfileSetupVC
+        let profileSetupViewController = segue.destination as! ProfileSetupVC
         profileSetupViewController.myString = segueLabel.text!
     }
     
@@ -44,21 +44,22 @@ class SignUpVC: UIViewController {
         
         var email = emailField.text
         
-        var beforeAt = email?.substring(to: (email?.characters.index(of: "@"))!)
-        var provider = email?.substring(from:(email?.characters.index(after: (email?.characters.index(of: "@"))!))!)
-        var provider2 = provider?.substring(to:(provider?.characters.index(after: (provider?.characters.index(of: "."))!))!)
-        var childSupport = String(beforeAt!) + String(provider2!)
-        var profile = childSupport.substring(to: childSupport.index(before: childSupport.endIndex))
-//        let goToProfile = self.storyboard?.instantiateViewController(withIdentifier: "goToProfileSetup")
+        // gets child for Realtime database
+        
+        let beforeAt = email?.substring(to: (email?.characters.index(of: "@"))!)
+        let provider = email?.substring(from:(email?.characters.index(after: (email?.characters.index(of: "@"))!))!)
+        let provider2 = provider?.substring(to:(provider?.characters.index(after: (provider?.characters.index(of: "."))!))!)
+        let childSupport = String(beforeAt!) + String(provider2!)
+        let profile = childSupport.substring(to: childSupport.index(before: childSupport.endIndex))
 
+        
+        // checks to see if passwords match and then creates an account for the user
         if(passwordField.text! == confirmPasswordField.text!){
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error ) in
                 if let u = user{
                     self.ref.child(profile).childByAutoId().setValue(["email": self.emailField.text!])
-//                    self.present(goToProfile!,animated: false, completion: nil)
-                    self.performSegue(withIdentifier: "segueToProfileSetup", sender: self
-                    )
                     self.segueLabel.text = profile
+                    self.performSegue(withIdentifier: "segueToProfileSetup", sender: self)
                     
                 } else{
                     print("error signing in \(error! .localizedDescription) ")

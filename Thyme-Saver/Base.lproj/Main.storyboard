@@ -137,10 +137,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6V-hM-mVb">
-                                <rect key="frame" x="186" y="695" width="42" height="21"/>
+                                <rect key="frame" x="130" y="695" width="185" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.93273736845205479" green="1" blue="0.91746467498187334" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.0025326990986572978" green="0.0049068610561947513" blue="0.011441148477157381" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -163,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4I8-An-crf" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="898"/>
+            <point key="canvasLocation" x="137.68115942028987" y="897.554347826087"/>
         </scene>
         <!--Profile SetupVC-->
         <scene sceneID="3bL-iv-nX7">
@@ -262,7 +262,7 @@
                                 <rect key="frame" x="109" y="675" width="197" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0016353240705125893" green="0.091602386730236796" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.19202722786758697" green="1" blue="0.258100379877648" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -275,7 +275,7 @@
                         <outlet property="firstName" destination="0jp-zv-0yL" id="rEV-Sc-5YM"/>
                         <outlet property="lastName" destination="frb-2z-HQH" id="Ufr-m4-2ad"/>
                         <outlet property="phoneNumber" destination="4YZ-kZ-moO" id="VBv-bM-jFY"/>
-                        <outlet property="segueLabel" destination="D4A-HK-gth" id="GIL-dO-aXu"/>
+                        <outlet property="segueLabelVC2" destination="D4A-HK-gth" id="hNq-Rv-pyU"/>
                         <outlet property="stateField" destination="5bU-BG-GUS" id="Qng-Lm-KcY"/>
                         <outlet property="streetAddress" destination="Nyz-jx-mFP" id="jSM-iO-3zl"/>
                         <outlet property="zipCode" destination="7H9-fK-v2O" id="qql-nS-B9j"/>
@@ -285,32 +285,20 @@
             </objects>
             <point key="canvasLocation" x="947.82608695652186" y="132.88043478260872"/>
         </scene>
-        <!--ProfileVC-->
-        <scene sceneID="Tg2-hg-PVU">
+        <!--HomeVC-->
+        <scene sceneID="RgQ-ot-7AK">
             <objects>
-                <viewController storyboardIdentifier="goToProfilePage" id="jyV-D3-Q3S" customClass="ProfileVC" customModule="Thyme_Saver" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zdt-dJ-yKA">
+                <viewController storyboardIdentifier="HomePage" id="4S4-32-iP3" customClass="HomeVC" customModule="Thyme_Saver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wtc-30-18p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jS-wO-IPr">
-                                <rect key="frame" x="118" y="48" width="178" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="ZkQ-UM-n17"/>
+                        <viewLayoutGuide key="safeArea" id="JQH-qI-iay"/>
                     </view>
-                    <connections>
-                        <outlet property="nameLabel" destination="4jS-wO-IPr" id="FpZ-qm-Jc7"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yAx-Mb-ozs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1f-S7-g86" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1705.7971014492755" y="132.88043478260872"/>
+            <point key="canvasLocation" x="1738" y="133"/>
         </scene>
         <!--Sign InVC-->
         <scene sceneID="glV-rB-lmR">
@@ -389,6 +377,6 @@
         <image name="IMG_7724" width="1000" height="502"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="M4p-fI-23D"/>
+        <segue reference="5gY-sZ-zNe"/>
     </inferredMetricsTieBreakers>
 </document>
