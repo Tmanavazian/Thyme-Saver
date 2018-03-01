@@ -52,12 +52,13 @@ class SignUpVC: UIViewController {
         let childSupport = String(beforeAt!) + String(provider2!)
         let profile = childSupport.substring(to: childSupport.index(before: childSupport.endIndex))
 
+    
         
         // checks to see if passwords match and then creates an account for the user
         if(passwordField.text! == confirmPasswordField.text!){
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error ) in
                 if let u = user{
-                    self.ref.child(profile).childByAutoId().setValue(["email": self.emailField.text!])
+                    self.ref.child(profile).child("Email").setValue(["email": self.emailField.text!])
                     self.segueLabel.text = profile
                     self.performSegue(withIdentifier: "segueToProfileSetup", sender: self)
                     

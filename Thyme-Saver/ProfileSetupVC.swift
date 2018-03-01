@@ -50,7 +50,7 @@ class ProfileSetupVC: UIViewController {
     
     @IBAction func nextButton(_ sender: UIButton) {
         
-        let goToHomePage = self.storyboard?.instantiateViewController(withIdentifier: "HomePage")
+        //var goToHomePage = self.storyboard?.instantiateViewController(withIdentifier: "HomePage")
 
         
         if(firstName.text != ""){
@@ -61,16 +61,18 @@ class ProfileSetupVC: UIViewController {
                             if(stateField.text != ""){
                                 if(zipCode.text != ""){
                                     
-                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["phonenumber": phoneNumber.text ])
-                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["firstname": firstName.text ])
-                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["lastname": lastName.text ])
-                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["streetaddress": streetAddress.text ])
-                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["zipcode": zipCode.text ])
-                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["state": stateField.text ])
-                                    self.ref.child(segueLabelVC2.text!).childByAutoId().setValue(["city": cityField.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("PhoneNumber").setValue(["phonenumber": phoneNumber.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("FirstName").setValue(["firstname": firstName.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("LastName").setValue(["lastname": lastName.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("StreetAddress").setValue(["streetaddress": streetAddress.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("ZipCode").setValue(["zipcode": zipCode.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("State").setValue(["state": stateField.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("City").setValue(["city": cityField.text ])
+                                    self.ref.child(segueLabelVC2.text!).child("FullName").setValue(["fullname": firstName.text! + " " + lastName.text!])
                                     
-                                    self.present(goToHomePage!,animated: false, completion: nil)
+                                    //self.present(goToHomePage!,animated: false, completion: nil)
 
+                                    self.performSegue(withIdentifier: "segueToHome", sender: self)
                                     
                                 } else {
                                     errorMessage.text = "Enter Zip"

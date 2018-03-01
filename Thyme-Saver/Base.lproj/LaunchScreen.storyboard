@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Can You Feel The Love Tonight" translatesAutoresizingMaskIntoConstraints="NO" id="igc-0Q-5to">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="igc-0Q-5to">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -41,7 +41,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Can You Feel The Love Tonight" width="1680" height="1050"/>
         <image name="IMG_7724" width="1000" height="502"/>
+        <image name="download" width="259" height="194"/>
     </resources>
 </document>
