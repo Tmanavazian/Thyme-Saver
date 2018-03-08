@@ -34,45 +34,31 @@ class SignUpVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let profileSetupViewController = segue.destination as! ProfileSetupVC
-        profileSetupViewController.myString = segueLabel.text!
-    }
     
+    // sets the label on the next VC = to the database child
     @IBAction func signUp(_ sender: UIButton) {
-        
-        var email = emailField.text
-        
-        // gets child for Realtime database
-        
-        let beforeAt = email?.substring(to: (email?.characters.index(of: "@"))!)
-        let provider = email?.substring(from:(email?.characters.index(after: (email?.characters.index(of: "@"))!))!)
-        let provider2 = provider?.substring(to:(provider?.characters.index(after: (provider?.characters.index(of: "."))!))!)
-        let childSupport = String(beforeAt!) + String(provider2!)
-        let profile = childSupport.substring(to: childSupport.index(before: childSupport.endIndex))
 
-    
         
         // checks to see if passwords match and then creates an account for the user
         if(passwordField.text! == confirmPasswordField.text!){
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error ) in
                 if let u = user{
-                    self.ref.child(profile).child("Email").setValue(["email": self.emailField.text!])
-                    self.segueLabel.text = profile
+                    // Writes data to the Database and goes to the next VC
                     self.performSegue(withIdentifier: "segueToProfileSetup", sender: self)
                     
                 } else{
+                    // if the user isnt signed up then an error is displayed
                     print("error signing in \(error! .localizedDescription) ")
                     self.displayLabel.text = "\(error! .localizedDescription)"
                 }
             }
-        }else{
+        } else{
+            // if the passwords dont match an error is displayed
             self.displayLabel.text = "Passwords do not match!"
         }
     }
     
-    
+    // overrides the keyboard
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         emailField.resignFirstResponder()
         passwordField.resignFirstResponder()
